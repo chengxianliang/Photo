@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="login_bg">#4969be</color>
+    <color name="login_bg1">#cecece</color>
+    <color name="common_blue">#4aa1e4</color>
+    <color name="switch_red">#d13e50</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_bg">#f8f8f8</color>
+    <color name="gray_title">#ececec</color>
+    <color name="btn_bg">#ed8f26</color>
+    <color name="yellow">#ffff00</color>
+    <color name="weather_bg">#66000000</color>
+    <color name="title_show_bg">#aa000000</color>
+    <color name="radio_group_bg">#f1f1f1</color>
+    <color name="view_pager_bg">#cccccc</color>
+    <color name="edit_bg">#f1b82a</color>
+    <color name="btn_cancle">#bebebe</color>
+    <color name="green">#ff00ff00</color>
+    <color name="red">#ffff0000</color>
+    <color name="background">#1c2a4d</color>
+    <color name="new_btn">#ed8f26</color>
+    <color name="new_gray">#f6f6f6</color>
+    <color name="new_gray_bg">#e6e6e6</color>
+    <color name="new_blue">#354f88</color>
+    <color name="new_line">#e1e1e1</color>
+    <color name="new_bt">#989898</color>
+    <color name="new_blue_hand">#1e88f9</color>
+    <color name="new_yellow_hand">#ff9e0c</color>
+    <color name="bg">#2da0a9</color>
+    <color name="title_bg">#fcfcfc</color>
+    <color name="user_bg">#f2f2f2</color>
+    <color name="user_btn">#99f2f2f2</color>
+
+
+    <drawable name="red_bg">#d13e50</drawable>
+    <drawable name="red_click">#ae2132</drawable>
+    <drawable name="blue_bg">#4aa1e4</drawable>
+    <drawable name="blue_click">#2b72a8</drawable>
+    <drawable name="yellow_bg">#ff9c3e</drawable>
+    <drawable name="yellow_click">#d66d09</drawable>
+    <drawable name="gray_bg">#a5acb2</drawable>
+    <drawable name="gray">#91979c</drawable>
+    <drawable name="white_bg">#ffffff</drawable>
+    <drawable name="vv_bg">#eff9f9f9</drawable>
+    <drawable name="tr">#00000000</drawable>
+
+    <color name="v_text_hint">#9b9b9b</color>
+    <color name="background_titlebar">#ff26587d</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="foreground_on_dark">#ffffffff</color>
+    <color name="border_color_on_light">#ff3bb3c3</color>
+</resources>

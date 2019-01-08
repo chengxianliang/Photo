@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/title"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/text_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:src="@drawable/btn_fanhui" />
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="照片展示"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/img_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_wode" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image_show"
+        android:layout_below="@id/title"
+        android:scaleType="fitXY"
+         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/user_btn"
+        android:id="@+id/btn_commit"
+        android:layout_alignParentBottom="true"
+        android:text="删除"
+        android:textColor="@color/black"
+        />
+
+
+
+
+</RelativeLayout>

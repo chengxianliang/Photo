@@ -1,0 +1,147 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/image_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_foreground" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/img"
+            android:text="安惠检测拍照"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_putin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_logo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/ll_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image_logo"
+            android:orientation="vertical">
+
+            <!--<EditText-->
+            <!--android:id="@+id/edit_name"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true" />-->
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ico_shouji"
+                android:drawablePadding="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center_vertical"
+                android:hint="请输入登录名"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/v_text_hint"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_pager_bg"
+                android:paddingRight="3dp" />
+            <!--<EditText-->
+            <!--android:id="@+id/edit_pwd"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:maxLines="1"-->
+            <!--android:inputType="textPassword"-->
+            <!--android:singleLine="true" />-->
+            <EditText
+                android:id="@+id/edit_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="4dp"
+                android:background="@null"
+                android:drawableLeft="@drawable/ico_yanzhengma"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/v_text_hint"
+
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_pager_bg"
+                android:paddingRight="3dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_putin"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_login"
+        android:text="登  录"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
